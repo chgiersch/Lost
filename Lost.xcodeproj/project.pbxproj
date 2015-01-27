@@ -83,14 +83,12 @@
 		0F12E5491A78513F0006E069 /* Lost */ = {
 			isa = PBXGroup;
 			children = (
-				0F12E54E1A78513F0006E069 /* AppDelegate.h */,
-				0F12E54F1A78513F0006E069 /* AppDelegate.m */,
-				0F12E5541A78513F0006E069 /* ViewController.h */,
-				0F12E5551A78513F0006E069 /* ViewController.m */,
-				0F12E5571A78513F0006E069 /* Main.storyboard */,
+				0F12E5731A7851C80006E069 /* AppDelegate */,
+				0F12E5741A7851DC0006E069 /* Controllers */,
+				0F12E5751A7851EC0006E069 /* View */,
+				0F12E5511A78513F0006E069 /* Lost.xcdatamodeld */,
 				0F12E55A1A78513F0006E069 /* Images.xcassets */,
 				0F12E55C1A78513F0006E069 /* LaunchScreen.xib */,
-				0F12E5511A78513F0006E069 /* Lost.xcdatamodeld */,
 				0F12E54A1A78513F0006E069 /* Supporting Files */,
 			);
 			path = Lost;
@@ -120,6 +118,32 @@
 				0F12E5681A78513F0006E069 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F12E5731A7851C80006E069 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0F12E54E1A78513F0006E069 /* AppDelegate.h */,
+				0F12E54F1A78513F0006E069 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0F12E5741A7851DC0006E069 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F12E5541A78513F0006E069 /* ViewController.h */,
+				0F12E5551A78513F0006E069 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0F12E5751A7851EC0006E069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F12E5571A78513F0006E069 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
