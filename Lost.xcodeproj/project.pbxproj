@@ -16,6 +16,7 @@
 		0F12E55E1A78513F0006E069 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F12E55C1A78513F0006E069 /* LaunchScreen.xib */; };
 		0F12E56A1A78513F0006E069 /* LostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F12E5691A78513F0006E069 /* LostTests.m */; };
 		0F12E5771A7859500006E069 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F12E5761A7859500006E069 /* lost.plist */; };
+		7A6D49D41A7870F600FDE624 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D49D31A7870F600FDE624 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		0F12E5681A78513F0006E069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F12E5691A78513F0006E069 /* LostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostTests.m; sourceTree = "<group>"; };
 		0F12E5761A7859500006E069 /* lost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lost.plist; sourceTree = "<group>"; };
+		7A6D49D21A7870F600FDE624 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7A6D49D31A7870F600FDE624 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,7 @@
 				0F12E5731A7851C80006E069 /* AppDelegate */,
 				0F12E5741A7851DC0006E069 /* Controllers */,
 				0F12E5751A7851EC0006E069 /* View */,
-				0F12E5511A78513F0006E069 /* Lost.xcdatamodeld */,
+				7A6D49D11A786AB900FDE624 /* Model */,
 				0F12E55A1A78513F0006E069 /* Images.xcassets */,
 				0F12E55C1A78513F0006E069 /* LaunchScreen.xib */,
 				0F12E54A1A78513F0006E069 /* Supporting Files */,
@@ -137,6 +140,8 @@
 			children = (
 				0F12E5541A78513F0006E069 /* ViewController.h */,
 				0F12E5551A78513F0006E069 /* ViewController.m */,
+				7A6D49D21A7870F600FDE624 /* DetailViewController.h */,
+				7A6D49D31A7870F600FDE624 /* DetailViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +152,14 @@
 				0F12E5571A78513F0006E069 /* Main.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		7A6D49D11A786AB900FDE624 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F12E5511A78513F0006E069 /* Lost.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6D49D41A7870F600FDE624 /* DetailViewController.m in Sources */,
 				0F12E5501A78513F0006E069 /* AppDelegate.m in Sources */,
 				0F12E5531A78513F0006E069 /* Lost.xcdatamodeld in Sources */,
 				0F12E5561A78513F0006E069 /* ViewController.m in Sources */,
@@ -444,6 +458,7 @@
 				0F12E56F1A78513F0006E069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F12E5701A78513F0006E069 /* Build configuration list for PBXNativeTarget "LostTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +467,7 @@
 				0F12E5721A78513F0006E069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
