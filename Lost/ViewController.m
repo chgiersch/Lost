@@ -33,6 +33,13 @@
     [self load];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self load];
+    [self.tableView reloadData];
+}
+
 
 - (void)load
 {
@@ -99,9 +106,9 @@
         dvc.object = self.lostPersonsArray[self.tableView.indexPathForSelectedRow.row];
         
     }
-    else if ([segue.identifier isEqualToString:@"NewPerson"])
+    else if ([segue.identifier isEqualToString:@"AddPerson"])
     {
-        
+        dvc.context = self.context;
     }
     
 }

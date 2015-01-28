@@ -97,6 +97,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fgP-lC-aM6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EYG-Ma-wIm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jj3-0U-xcd">
@@ -121,7 +122,7 @@
                                     <rect key="frame" x="103" y="118" width="194" height="30"/>
                                 </variation>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-iA-O9t">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-iA-O9t">
                                 <rect key="frame" x="-61" y="-14" width="123" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
@@ -180,9 +181,17 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="TC9-CY-Yjm">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="hjp-Ve-i82">
+                            <connections>
+                                <action selector="onDoneButtonPressed:" destination="xdv-uz-16I" id="i5e-sg-efD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="actorTextField" destination="CF7-cQ-bYc" id="WBC-dl-Qdi"/>
                         <outlet property="ageTextField" destination="kU9-ZK-Vly" id="c5b-57-vka"/>
+                        <outlet property="editButton" destination="hjp-Ve-i82" id="wW5-X7-jZj"/>
                         <outlet property="hairTextField" destination="JDr-xe-Lq6" id="QXH-oz-Vhi"/>
                         <outlet property="imageView" destination="jj3-0U-xcd" id="lKv-SN-cO5"/>
                         <outlet property="passengerTextField" destination="V4h-NN-MbY" id="X6v-7q-Lnt"/>
@@ -213,6 +222,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xms-Oc-da1"/>
+        <segue reference="DJl-KW-liN"/>
     </inferredMetricsTieBreakers>
 </document>
