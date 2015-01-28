@@ -2,7 +2,7 @@
 //  ViewController.h
 //  Lost
 //
-//  Created by Chris Giersch on 1/27/15.
+//  Created by Chris Giersch & Clint Chilcott on 1/27/15.
 //  Copyright (c) 2015 ChrisGiersch. All rights reserved.
 //
 
